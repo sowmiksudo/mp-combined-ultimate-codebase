@@ -1046,7 +1046,7 @@ INSERT INTO `business_settings` (`type`, `value`, `created_at`, `updated_at`) VA
     (928, 'en', 'Forgot Password?', 'Forgot Password?', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
     (929, 'en', 'Enter your email address to recover your password.', 'Enter your email address to recover your password.', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
     (930, 'en', 'Email or Phone', 'Email or Phone', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
-    (931, 'en', 'Send Password Reset Link', 'Send Password Reset Link', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
+    (931, 'en', 'Send Password Reset Code', 'Send Password Reset Code', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
     (932, 'en', 'Back to Login', 'Back to Login', '2020-11-09 10:33:21', '2020-11-09 10:33:21'),
     (933, 'en', 'index', 'index', '2020-11-09 10:35:29', '2020-11-09 10:35:29'),
     (934, 'en', 'Download Your Product', 'Download Your Product', '2020-11-09 10:35:30', '2020-11-09 10:35:30'),

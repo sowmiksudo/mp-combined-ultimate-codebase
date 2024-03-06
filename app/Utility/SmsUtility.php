@@ -14,10 +14,11 @@ class SmsUtility
         $sms_body       = str_replace('[[site_name]]', env('APP_NAME'), $sms_body);
         $template_id    = $sms_template->template_id;
         try {
-            sendSMS($user->phone, env('APP_NAME'), $sms_body, $template_id);
+            $response = sendSMS($user->phone, env('APP_NAME'), $sms_body, $template_id);
         } catch (\Exception $e) {
 
         }
+        // dd($response);
     }
 
     public static function password_reset($user = '')

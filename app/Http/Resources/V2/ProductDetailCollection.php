@@ -31,14 +31,15 @@ class ProductDetailCollection extends ResourceCollection
                             $item['path'] = $photo_paths[$i];
                             $photos[]= $item;
                         }
+
                     }
+
                 }
 
                 foreach ($data->stocks as $stockItem){
                     if($stockItem->image != null && $stockItem->image != ""){
                         $item = array();
                         $item['variant'] = $stockItem->variant;
-                        $item['sku'] = $stockItem->sku;
                         $item['path'] = uploaded_asset($stockItem->image) ;
                         $photos[]= $item;
                     }
@@ -88,7 +89,7 @@ class ProductDetailCollection extends ResourceCollection
                     'video_link' => $data->video_link != null ?  $data->video_link : "",
                     'brand' => $brand,
                     'link' => route('product', $data->slug),
-                    'item' => $item,
+                    'cash_on_delivery'=>$data->cash_on_delivery
                 ];
             })
         ];

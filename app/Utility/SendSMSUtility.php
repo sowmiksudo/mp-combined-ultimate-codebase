@@ -170,38 +170,43 @@ class SendSMSUtility
             return $response;
         } elseif (OtpConfiguration::where('type', 'msegat')->first()->value == 1) {
 
+            // $data = [
+            //     "user" => env('MSEGAT_USER_ID'),
+            //     "pwd" => env('MSEGAT_API_KEY'),
+            //     "sender" => env('MSEGAT_USER_SENDER'),
+            //     "number" => $to,
+            //     "msg" => $text,
+            //     "language " => "Unicode"
+            // ];
+
             $curl = curl_init();
-            $data = [
-                "user" => env('MSEGAT_USER_ID'),
-                "pwd" => env('MSEGAT_API_KEY'),
-                "sender" => env('MSEGAT_USER_SENDER'),
-                "number" => $to,
-                "msg" => $text,
-                "language " => "Unicode"
-            ];
+
             curl_setopt_array($curl, array(
-                CURLOPT_URL => 'https://mshastra.com/sendsms_api_json.aspx',
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_ENCODING => '',
-                CURLOPT_MAXREDIRS => 10,
-                CURLOPT_TIMEOUT => 0,
-                CURLOPT_FOLLOWLOCATION => true,
-                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                CURLOPT_CUSTOMREQUEST => 'POST',
-                CURLOPT_POSTFIELDS => json_encode([
-                    $data,
-                ]),
-                CURLOPT_HTTPHEADER => array(
-                    'Content-Type: application/json',
-                ),
+            CURLOPT_URL => 'https://sysadmin.muthobarta.com/api/v1/send-sms',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            CURLOPT_POSTFIELDS =>'{
+                "sender_id": "8809601002709",
+                "receiver": "'.$to.'",
+                "message": "'.$text.'",
+                "remove_duplicate": true
+            }',
+            CURLOPT_HTTPHEADER => array(
+                'Content-Type: application/json',
+                'Authorization: Token 353b71cd0e14197e9d66275ba4a3bd5696c51057'
+            ),
             ));
 
             $response = curl_exec($curl);
-            dd($response, $data);
+
             curl_close($curl);
-            
-            return $response;
+            // dd($response);
         }
-        return true;
+        return $response;
     }
 }

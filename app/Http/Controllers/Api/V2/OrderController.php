@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Order;
 use App\Models\Cart;
 use App\Models\Product;
+use App\Models\ProductStock;
 use App\Models\OrderDetail;
 use App\Models\Coupon;
 use App\Models\CouponUsage;
@@ -236,5 +237,36 @@ class OrderController extends Controller
             'result' => true,
             'message' => translate('Your order has been placed successfully')
         ]);
+    }
+
+    public function delete(Request $request, $id){
+        $order = Order::findOrFail($id);
+        // return $order->order_details;
+        if ($order != null) {
+            foreach ($order->orderDetails as $key => $orderDetail) {
+                try {
+                    $product_stock = ProductStock::where('product_id', $orderDetail->product_identifier)->where('variant', 
+                    $orderDetail->variation)->first();
+                    // dd($product_stock);
+                    if ($product_stock != null) {
+                        $product_stock->qty += $orderDetail->quantity;
+                        $product_stock->save();
+                    }
+                } catch (\Exception $e) {
+                }
+
+                $orderDetail->delete();
+            }
+            $order->delete();
+            return response()->json([
+                "success" => true,
+                "message" => "Order has been deleted successfully"
+            ]);
+        } else {
+            return response()->json([
+                "success" => false,
+                "message" => "Order not found!",
+            ]);
+        }
     }
 }

@@ -94,6 +94,7 @@ class CartController extends Controller
                         $shop_items_data_item["tax"] = (float) cart_product_tax($shop_items_raw_data_item, $product, false);
                         $shop_items_data_item["shipping_cost"] = (float) $shop_items_raw_data_item["shipping_cost"];
                         $shop_items_data_item["quantity"] = intval($shop_items_raw_data_item["quantity"]);
+                        $shop_items_data_item["cash_on_delivery"] = $product->cash_on_delivery ? true : false;
                         $shop_items_data_item["lower_limit"] = intval($product->min_qty);
                         $shop_items_data_item["upper_limit"] = intval($product->stocks->where('variant', $shop_items_raw_data_item['variation'])->first()->qty);
 

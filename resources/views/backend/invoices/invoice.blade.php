@@ -87,10 +87,10 @@
                     <td style="font-size: 1rem;" class="strong">{{ get_setting('site_name') }}</td>
                     <td class="text-right"></td>
                 </tr>
-                <tr>
-                    <td class="gry-color small">{{ get_setting('contact_address') }}</td>
+                <!-- <tr>
+                    <td class="gry-color small">{!! get_setting('contact_address') !!}</td>
                     <td class="text-right"></td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td class="gry-color small">{{ translate('Email') }}: {{ get_setting('contact_email') }}</td>
                     <td class="text-right small"><span class="gry-color small">{{ translate('Order ID') }}:</span> <span

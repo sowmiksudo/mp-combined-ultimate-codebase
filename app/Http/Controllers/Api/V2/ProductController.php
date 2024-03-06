@@ -23,7 +23,7 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return new ProductMiniCollection(Product::with('product_stocks')->latest()->paginate(10));
+        return new ProductMiniCollection(Product::latest()->paginate(10));
     }
 
     public function show($id)
@@ -80,10 +80,8 @@ class ProductController extends Controller
 
     public function todaysDeal()
     {
-        return Cache::remember('app.todays_deal', 86400, function () {
-            $products = Product::where('todays_deal', 1)->physical();
-            return new ProductMiniCollection(filter_products($products)->limit(20)->latest()->get());
-        });
+        $products = Product::latest()->where('todays_deal', 1)->where('published', 1);
+        return new ProductMiniCollection(filter_products($products)->get());
     }
 
     public function flashDeal()

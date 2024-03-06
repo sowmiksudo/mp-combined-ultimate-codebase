@@ -6,6 +6,9 @@
     RewriteEngine On
 
     # redirect www to non www
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^www.malaysianproducts.com.my [NC]
+    RewriteRule ^(.*)$ https://malaysianproducts.com.my/$1 [L,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

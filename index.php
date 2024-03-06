@@ -1,7 +1,6 @@
 <?php
-
+// die("ok");
 ini_set('serialize_precision', -1);
-
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
@@ -22,6 +21,7 @@ define('LARAVEL_START', microtime(true));
 | loading any of our classes later on. It feels great to relax.
 |
 */
+
 
 require __DIR__.'/vendor/autoload.php';
 

@@ -117,30 +117,19 @@
                         {{ translate('Contact Info') }}
                     </h4>
                     <ul class="list-unstyled">
+                        {!! \App\Models\BusinessSetting::where('type', 'contact_address')->first()->value !!}
                         <li class="mb-2">
-                            <span class="d-block opacity-30">{{ translate('Branch Office:') }}:</span>
-                            <span class="d-block opascity-70">House # 19, Road # 17, Banani C\A, Dhaka</span>
+                            <span class="d-block opacity-30">Phone:</span> <span class="d-block opacity-70">{{ get_setting('contact_phone')
+                                }}
+                            </span> 
                         </li>
-                        <li class="mb-2">
-                            <span class="d-block opacity-30">{{ translate('Delivery Hub:') }}:</span>
-                            <span class="d-block opascity-70">House # 13, Road # 27, Block # J, (2nd floor), Banani, Dhaka
-                            </span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="d-block opacity-30">{{ translate('Corporate Office:') }}:</span>
-                            <span class="d-block opascity-70">House # 8, Road # 14, Sector # 3, (2nd floor), Uttara, Dhaka
-                            </span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="d-block opacity-30">{{translate('Phone')}}:</span>
-                            <span class="d-block opacity-70">{{ get_setting('contact_phone') }}</span>
-                        </li>
-                        <li class="mb-2">
-                            <span class="d-block opacity-30">{{translate('Email')}}:</span>
+                        <li class="mb-2"> 
+                            <span class="d-block opacity-30">{{translate('Email')}}:</span> 
                             <span class="d-block opacity-70">
-                                <a href="mailto:{{ get_setting('contact_email') }}" class="text-reset">{{
-                                    get_setting('contact_email') }}</a>
-                            </span>
+                                <a href="mailto:{{ get_setting('contact_email') }}" class="text-reset">{{ get_setting('contact_email')
+                                    }}
+                                </a> 
+                            </span> 
                         </li>
                     </ul>
                 </div>

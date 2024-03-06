@@ -61,7 +61,7 @@
                             </div>
                             <div class="form-group text-right">
                                 <button class="btn btn-primary btn-block" type="submit">
-                                    {{ translate('Send Password Reset Link') }}
+                                    {{ translate('Send Password Reset Code') }}
                                 </button>
                             </div>
                         </form>
@@ -122,25 +122,19 @@
 
         });
 
-        $('.phone-form-group').removeClass('d-none');
-        $('.email-form-group').addClass('d-none');
-        $('input[name=email]').val(null);
-        isPhoneShown = true;
-        $(el).html('{{ translate('Use Email Instead') }}');
-
         function toggleEmailPhone(el) {
-            if (!isPhoneShown) {
-                $('.phone-form-group').removeClass('d-none');
-                $('.email-form-group').addClass('d-none');
-                $('input[name=email]').val(null);
-                isPhoneShown = true;
-                $(el).html('{{ translate('Use Email Instead') }}');
-            } else {
+            if (isPhoneShown) {
                 $('.phone-form-group').addClass('d-none');
                 $('.email-form-group').removeClass('d-none');
                 $('input[name=phone]').val(null);
                 isPhoneShown = false;
                 $(el).html('{{ translate('Use Phone Instead') }}');
+            } else {
+                $('.phone-form-group').removeClass('d-none');
+                $('.email-form-group').addClass('d-none');
+                $('input[name=email]').val(null);
+                isPhoneShown = true;
+                $(el).html('{{ translate('Use Email Instead') }}');
             }
         }
     </script>

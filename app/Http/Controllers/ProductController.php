@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use PDO;
 use Str;
 use Cache;
 use Artisan;
@@ -22,6 +21,7 @@ use App\Http\Requests\ProductRequest;
 use App\Services\ProductStockService;
 use Illuminate\Support\Facades\Route;
 use App\Services\ProductFlashDealService;
+use PDO;
 use App\Http\Resources\V2\ProductMiniCollection;
 
 class ProductController extends Controller
@@ -583,6 +583,6 @@ class ProductController extends Controller
     }
 
     public function preloved_api(Request $request){
-        return new ProductMiniCollection(Product::latest()->paginate(10));
+        return new ProductMiniCollection(Product::where('preloved', 1)->latest()->paginate(10));
     }
 }

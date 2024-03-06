@@ -44,9 +44,7 @@ class HomeController extends Controller
             return Category::where('featured', 1)->get();
         });
 
-        $todays_deal_products = Cache::rememberForever('todays_deal_products', function () {
-            return filter_products(Product::where('published', 1)->where('todays_deal', '1'))->get();
-        });
+        $todays_deal_products = filter_products(Product::latest()->where('published', 1)->where('todays_deal', '1'))->get();
 
         $newest_products = Cache::remember('newest_products', 3600, function () {
             return filter_products(Product::latest())->limit(12)->get();
@@ -658,7 +656,7 @@ class HomeController extends Controller
 
     public function todays_deals(Request $request)
     {
-        $products = filter_products(Product::where('published', 1)->where('todays_deal', '1'))->paginate(20)->appends($request->query());
+        $products = filter_products(Product::latest()->where('published', 1)->where('todays_deal', '1'))->paginate(20)->appends($request->query());
         return view('frontend.todays_products', compact('products'));
     }
 

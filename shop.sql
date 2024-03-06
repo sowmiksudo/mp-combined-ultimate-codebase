@@ -55153,7 +55153,7 @@ INSERT INTO `translations` (`id`, `lang`, `lang_key`, `lang_value`, `created_at`
 (928, 'en', 'forgot_password', 'Forgot Password?', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
 (929, 'en', 'enter_your_email_address_to_recover_your_password', 'Enter your email address to recover your password.', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
 (930, 'en', 'email_or_phone', 'Email or Phone', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
-(931, 'en', 'send_password_reset_link', 'Send Password Reset Link', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
+(931, 'en', 'send_password_reset_link', 'Send Password Reset Code', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
 (932, 'en', 'back_to_login', 'Back to Login', '2020-11-09 10:33:21', '2021-09-20 07:29:09'),
 (933, 'en', 'index', 'index', '2020-11-09 10:35:29', '2021-02-09 06:52:51'),
 (934, 'en', 'download_your_product', 'Download Your Product', '2020-11-09 10:35:30', '2021-09-20 07:29:09'),

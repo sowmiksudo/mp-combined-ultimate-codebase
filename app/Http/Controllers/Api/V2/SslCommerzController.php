@@ -73,6 +73,7 @@ class SslCommerzController extends Controller
         $post_data['value_b'] = $request->combined_order_id;
         $post_data['value_c'] = $request->payment_type;
         $post_data['value_d'] = $request->amount;
+        dd($post_data);
 
         if ($request->payment_type == "cart_payment") {
             $combined_order = CombinedOrder::find($combined_order_id);

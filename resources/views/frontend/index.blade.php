@@ -21,7 +21,7 @@
                             @foreach ($slider_images as $key => $value)
                                 <div class="carousel-box">
                                     <a href="{{ json_decode(get_setting('home_slider_links'), true)[$key] }}">
-                                        <img class="d-block mw-100 img-fit rounded shadow-sm overflow-hidden"
+                                        <img class="d-block mw-100 img-fit rounded shadow-sm overflow-hidden img-fluid"
                                             src="{{ uploaded_asset($slider_images[$key]) }}"
                                             alt="{{ env('APP_NAME') }} promo"
                                             @if (count($featured_categories) == 0) height="457"

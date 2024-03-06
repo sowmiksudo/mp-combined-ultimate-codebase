@@ -123,7 +123,7 @@ class NagadUtility {
     public static function create_balance_reference($key)
     {
         if ($key == "") {
-            return true;
+            return false;
         }
 
         if(Cache::get('app-activation', 'no') == 'no'){

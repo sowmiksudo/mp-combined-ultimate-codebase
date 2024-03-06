@@ -58,7 +58,7 @@
                                                     @if(!empty( $array['link']))
                                                     <tr>
                                                         <td class="h5 center blue pb30" style="font-family:'Ubuntu', Arial,sans-serif; font-size:20px; line-height:26px; text-align:center; color:#2e57ae; padding-bottom:30px;">
-                                                            <p style="background: #007bff;padding: 0.9rem 2rem;font-size: 0.875rem;color:#fff;border-radius: .2rem;" target="_blank">{{ translate("Your verification code is:") }} {{ $array['link'] }}</p>
+                                                            <p style="background: #007bff;padding: 0.9rem 2rem;font-size: 0.875rem;color:#fff;border-radius: .2rem;" target="_blank">{{ translate("Your verification code is ") }} <br> {{ $array['link'] }}</p>
                                                         </td>
                                                     </tr>
                                                     @endif

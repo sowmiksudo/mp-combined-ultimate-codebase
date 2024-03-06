@@ -353,7 +353,7 @@ class OrderController extends Controller
             foreach ($order->orderDetails as $key => $orderDetail) {
                 try {
 
-                    $product_stock = ProductStock::where('product_id', $orderDetail->product_id)->where('variant', $orderDetail->variation)->first();
+                    $product_stock = ProductStock::where('product_id', $orderDetail->product_identifier)->where('variant', $orderDetail->variation)->first();
                     if ($product_stock != null) {
                         $product_stock->qty += $orderDetail->quantity;
                         $product_stock->save();

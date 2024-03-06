@@ -35,6 +35,7 @@ class SslcommerzController extends Controller
                 $post_data['value_a'] = $post_data['tran_id'];
                 $post_data['value_b'] = $request->session()->get('combined_order_id');
                 $post_data['value_c'] = $request->session()->get('payment_type');
+                $post_data['value_d'] = Auth::user()->id;
 
                 #Start to save these value  in session to pick in success page.
                 // $_SESSION['payment_values']['tran_id']=$post_data['tran_id'];
@@ -120,7 +121,7 @@ class SslcommerzController extends Controller
         }
 
         $server_name=$request->root()."/";
-        $post_data['success_url'] = $server_name . "sslcommerz/success";
+        $post_data['success_url'] = $server_name . "sslcommerz/success?id=" . $user->id;
         $post_data['fail_url'] = $server_name . "sslcommerz/fail";
         $post_data['cancel_url'] = $server_name . "sslcommerz/cancel";
         // dd($post_data);
@@ -153,7 +154,8 @@ class SslcommerzController extends Controller
     public function success(Request $request)
     {
         //echo "Transaction is Successful";
-
+        $user_id = $request->id;
+        $user = User::find($user_id);
         $sslc = new SSLCommerz();
         #Start to received these value from session. which was saved in index function.
         $tran_id = $request->value_a;
@@ -162,6 +164,7 @@ class SslcommerzController extends Controller
 
         if(isset($request->value_c)){
             if($request->value_c == 'cart_payment'){
+                Auth::login(User::find($request->value_d));
                 return (new CheckoutController)->checkout_done($request->value_b, $payment);
             }
             elseif ($request->value_c == 'wallet_payment') {
@@ -175,6 +178,7 @@ class SslcommerzController extends Controller
                 $data['customer_package_id'] = $request->value_b;
                 $data['payment_method'] = 'sslcommerz';
                 Auth::login(User::find($request->value_d));
+                // Auth::login(User::find($request))
 
                 return (new CustomerPackageController)->purchase_payment_done($data, $payment);
             }
