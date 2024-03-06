@@ -1,0 +1,1610 @@
+{
+    "code": "0",
+    "msg": "ok",
+    "info": {
+      "isShowMall": "1",
+      "selectedMallCode": "1",
+      "mallInfoList": [
+        {
+          "stock": "999",
+          "retailPrice": {
+            "amount": "8.00",
+            "amountWithSymbol": "$8.00",
+            "usdAmount": "8.00",
+            "usdAmountWithSymbol": "$8.00"
+          },
+          "salePrice": {
+            "amount": "5.00",
+            "amountWithSymbol": "$5.00",
+            "usdAmount": "5.00",
+            "usdAmountWithSymbol": "$5.00"
+          },
+          "mallDescription": [
+            "Some products are eligible for 'QuickShip', which provides faster delivery. Please refer to the shipping policy below for details."
+          ],
+          "mall_code": "1",
+          "mall_name": "International Shipping",
+          "mall_sort": "1",
+          "unit_discount": "38"
+        },
+        {
+          "stock": "1",
+          "retailPrice": {
+            "amount": "8.00",
+            "amountWithSymbol": "$8.00",
+            "usdAmount": "8.00",
+            "usdAmountWithSymbol": "$8.00"
+          },
+          "salePrice": {
+            "amount": "5.00",
+            "amountWithSymbol": "$5.00",
+            "usdAmount": "5.00",
+            "usdAmountWithSymbol": "$5.00"
+          },
+          "mallDescription": [
+            "Some products are eligible for 'QuickShip', which provides faster delivery. Please refer to the shipping policy below for details."
+          ],
+          "mall_code": "2",
+          "mall_name": "QuickShip",
+          "mall_sort": "2",
+          "unit_discount": "38"
+        }
+      ],
+      "isLocalShipping": "0",
+      "goods_id": "2506647",
+      "goods_sn": "swdress07210415662",
+      "goods_img": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459094352ba0be96383d2718f3c49efab0ed14_thumbnail_405x552.jpg",
+      "color_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459117e4fc92f009ea02bf4bbd93326d4ee397.jpg",
+      "cate_name": "Women Dresses",
+      "isSkuData": "1",
+      "cccDetailsTemplate": {
+        "appTemplate": "1",
+        "content": [
+          {
+            "detailImg": "0",
+            "sizeChart": "1",
+            "description": "1",
+            "countCell": "0",
+            "imgSrc": "",
+            "colorType": "0"
+          }
+        ],
+        "tempType": "1"
+      },
+      "isBraRecommendSize": "0",
+      "return_title": "Return Policy",
+      "is_support_return": "1",
+      "isOutExposedShippingTime": "0",
+      "isOutExposedShippingThreshold": "0",
+      "goods_desc": "",
+      "is_clearance": 0,
+      "supplier_id": "1223",
+      "productDetails": [
+        {
+          "attr_name": "Color",
+          "attr_value": "Black",
+          "attr_name_en": "Color",
+          "attr_id": 27,
+          "value_sort": 10,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 2,
+          "attr_value_id": "112",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Style",
+          "attr_value": "Casual",
+          "attr_name_en": "Style",
+          "attr_id": 101,
+          "value_sort": 2,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 5,
+          "attr_value_id": "167",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Pattern Type",
+          "attr_value": "Plain",
+          "attr_name_en": "Pattern Type",
+          "attr_id": 73,
+          "value_sort": 14,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 7,
+          "attr_value_id": "515",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Details",
+          "attr_value": "Rib-Knit",
+          "attr_name_en": "Details",
+          "attr_id": 31,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 9,
+          "attr_value_id": "1082",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Type",
+          "attr_value": "Cami",
+          "attr_name_en": "Type",
+          "attr_id": 109,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 13,
+          "attr_value_id": "153",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Neckline",
+          "attr_value": "Spaghetti Strap",
+          "attr_name_en": "Neckline",
+          "attr_id": 66,
+          "value_sort": 3,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 27,
+          "attr_value_id": "620",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Sleeve Length",
+          "attr_value": "Sleeveless",
+          "attr_name_en": "Sleeve Length",
+          "attr_id": 90,
+          "value_sort": 4,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 29,
+          "attr_value_id": "612",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Waist Line",
+          "attr_value": "Natural",
+          "attr_name_en": "Waist Line",
+          "attr_id": 113,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 33,
+          "attr_value_id": "454",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Hem Shaped",
+          "attr_value": "Pencil",
+          "attr_name_en": "Hem Shaped",
+          "attr_id": 129,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 35,
+          "attr_value_id": "504",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Length",
+          "attr_value": "Mini",
+          "attr_name_en": "Length",
+          "attr_id": 54,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 37,
+          "attr_value_id": "438",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Fit Type",
+          "attr_value": "Slim Fit",
+          "attr_name_en": "Fit Type",
+          "attr_id": 40,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 43,
+          "attr_value_id": "613",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Fabric",
+          "attr_value": "Slight Stretch",
+          "attr_name_en": "Fabric",
+          "attr_id": 39,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 53,
+          "attr_value_id": "280",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Material",
+          "attr_value": "Fabric",
+          "attr_name_en": "Material",
+          "attr_id": 160,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 63,
+          "attr_value_id": "278",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Composition",
+          "attr_value": "93% Cotton, 7% Elastane",
+          "attr_name_en": "Composition",
+          "attr_id": 62,
+          "value_sort": 1,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 65,
+          "attr_value_id": "212",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Care Instructions",
+          "attr_value": "Machine wash or professional dry clean",
+          "attr_name_en": "Care Instructions",
+          "attr_id": 1000069,
+          "value_sort": 1,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 67,
+          "attr_value_id": "1002238",
+          "attr_value_id_for_sort": 0
+        },
+        {
+          "attr_name": "Sheer",
+          "attr_value": "No",
+          "attr_name_en": "Sheer",
+          "attr_id": 207,
+          "value_sort": 0,
+          "attr_desc": "",
+          "attr_image": "",
+          "attrImgList": null,
+          "attr_sort": 79,
+          "attr_value_id": "459",
+          "attr_value_id_for_sort": 0
+        }
+      ],
+      "materialDetails": [
+        {
+          "attr_name": "Material: ",
+          "attr_value": "Fabric"
+        },
+        {
+          "attr_name": "Composition: ",
+          "attr_value": "Outer: 93% Cotton, 7% Elastane"
+        },
+        {
+          "attr_name": "Wash Care: ",
+          "attr_value": "Machine wash or professional dry clean"
+        }
+      ],
+      "productRelationID": "S21030301061",
+      "original_img": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459094352ba0be96383d2718f3c49efab0ed14.jpg",
+      "goods_name": "SHEIN EZwear Solid Rib-knit Bodycon Dress",
+      "cat_id": "1727",
+      "is_on_sale": "1",
+      "stock": "999",
+      "sale_price": {
+        "amount": "5.00",
+        "amountWithSymbol": "$5.00",
+        "usdAmount": "5.00",
+        "usdAmountWithSymbol": "$5.00"
+      },
+      "retail_price": {
+        "amount": "8.00",
+        "amountWithSymbol": "$8.00",
+        "usdAmount": "8.00",
+        "usdAmountWithSymbol": "$8.00"
+      },
+      "unit_discount": "38",
+      "is_subscription": "0",
+      "attr_size_tips": "",
+      "size_and_stock": [],
+      "mainSaleAttribute": {
+        "mainSaleAttrShowMode": "2",
+        "info": [
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "112",
+            "attr_value": "Black",
+            "goods_id": "2506647",
+            "goods_sn": "swdress07210415662",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459117e4fc92f009ea02bf4bbd93326d4ee397.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459094352ba0be96383d2718f3c49efab0ed14_thumbnail_405x552.jpg",
+            "hot_color": "1",
+            "isEco": "0"
+          },
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "513",
+            "attr_value": "Pink",
+            "goods_id": "2260940",
+            "goods_sn": "swdress07210303426",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/08/03/1659509905b99d48093dcf3cbce0cdb6785d0fa9c4.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/08/03/16595098926a4b3daa981617cb522edbbbc0f5bb87_thumbnail_405x552.jpg",
+            "hot_color": "1",
+            "isEco": "0"
+          },
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "544",
+            "attr_value": "Red",
+            "goods_id": "7069912",
+            "goods_sn": "sS2103030106165252",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2021/11/30/1638237343a16f7dd7f05887692fd26d2e28ca247d.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2021/11/30/1638237318d5b04f1cd0e39a3a0a3ee7767931358b_thumbnail_405x552.jpg",
+            "hot_color": "0",
+            "isEco": "0"
+          },
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "334",
+            "attr_value": "Green",
+            "goods_id": "2838527",
+            "goods_sn": "swdress07210604961",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2021/06/16/1623811223f7c74634c6a9c3f211476f1870a60e58.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2021/06/16/16238112065900971bca3911c71b0717f67c934338_thumbnail_405x552.jpg",
+            "hot_color": "0",
+            "isEco": "0"
+          },
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "152",
+            "attr_value": "Camel",
+            "goods_id": "2838512",
+            "goods_sn": "swdress07210604678",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/10/03/1664759233425dd0dea9d7dfa47a849f201e0532d1.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/10/03/1664759217a53ab44f50e0acaff4e56323ba3cc570_thumbnail_405x552.jpg",
+            "hot_color": "0",
+            "isEco": "0"
+          },
+          {
+            "attr_id": "27",
+            "attr_name": "Color",
+            "attr_value_id": "1000117",
+            "attr_value": "Lilac Purple",
+            "goods_id": "8783412",
+            "goods_sn": "sS2103030106172273",
+            "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/01/09/16417148409b292655104bb3a226112ee1e90adfa9.jpg",
+            "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/01/09/1641714830af57039487a39b636d3b88b0a0da1028_thumbnail_405x552.jpg",
+            "hot_color": "0",
+            "isEco": "0"
+          }
+        ]
+      },
+      "multiLevelSaleAttribute": {
+        "skc_name": "swdress07210415662",
+        "goods_sn": "swdress07210415662",
+        "goods_id": "2506647",
+        "sku_list": [
+          {
+            "skuSelectedMallCode": "1",
+            "sku_code": "I1gpketkim8w",
+            "stock": "999",
+            "mall_stock": [
+              {
+                "mall_code": "1",
+                "stock": "999"
+              },
+              {
+                "mall_code": "2",
+                "stock": "0"
+              }
+            ],
+            "price": {
+              "retailPrice": {
+                "amount": "8.00",
+                "amountWithSymbol": "$8.00",
+                "usdAmount": "8.00",
+                "usdAmountWithSymbol": "$8.00"
+              },
+              "unit_discount": 38,
+              "salePrice": {
+                "amount": "5.00",
+                "amountWithSymbol": "$5.00",
+                "usdAmount": "5.00",
+                "usdAmountWithSymbol": "$5.00"
+              }
+            },
+            "mall_price": [
+              {
+                "mall_code": "1",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              },
+              {
+                "mall_code": "2",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              }
+            ],
+            "sku_sale_attr": [
+              {
+                "attr_id": "87",
+                "attr_name": "Size",
+                "attr_name_en": "Size",
+                "attr_value_id": "755",
+                "attr_value_name": "XS",
+                "attr_value_name_en": "XS"
+              }
+            ],
+            "rewardPoints": 5,
+            "doublePoints": 0,
+            "multiPaymentShowList": [
+              {
+                "id": 24,
+                "is_display": 1,
+                "payment_code": "afterpay-card",
+                "place_order_desc": "Make 4 payments of $1.25 every two weeks",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2020/09/23/16008290258c6e56705475b8df7cde96a8218e28ec.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 68,
+                "is_display": 1,
+                "payment_code": "klarna-sliceit",
+                "place_order_desc": "Make 4 payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2022/10/20/16662639114ea37c7c81cad67eadd102c5e86d18c5.png",
+                "decimal_rule": 2,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 156,
+                "is_display": 1,
+                "payment_code": "zip-quadpay",
+                "place_order_desc": "4 interest-free payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2021/08/10/1628582232b83c1a27cbf8df7f40473a5a847014aa.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              }
+            ],
+            "subscribe_status": 0,
+            "grade_status": 1,
+            "is_default": "1"
+          },
+          {
+            "skuSelectedMallCode": "1",
+            "sku_code": "I1gpketkhf4i",
+            "stock": "999",
+            "mall_stock": [
+              {
+                "mall_code": "1",
+                "stock": "999"
+              },
+              {
+                "mall_code": "2",
+                "stock": "0"
+              }
+            ],
+            "price": {
+              "retailPrice": {
+                "amount": "8.00",
+                "amountWithSymbol": "$8.00",
+                "usdAmount": "8.00",
+                "usdAmountWithSymbol": "$8.00"
+              },
+              "unit_discount": 38,
+              "salePrice": {
+                "amount": "5.00",
+                "amountWithSymbol": "$5.00",
+                "usdAmount": "5.00",
+                "usdAmountWithSymbol": "$5.00"
+              }
+            },
+            "mall_price": [
+              {
+                "mall_code": "1",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              },
+              {
+                "mall_code": "2",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              }
+            ],
+            "sku_sale_attr": [
+              {
+                "attr_id": "87",
+                "attr_name": "Size",
+                "attr_name_en": "Size",
+                "attr_value_id": "568",
+                "attr_value_name": "S",
+                "attr_value_name_en": "S"
+              }
+            ],
+            "rewardPoints": 5,
+            "doublePoints": 0,
+            "multiPaymentShowList": [
+              {
+                "id": 24,
+                "is_display": 1,
+                "payment_code": "afterpay-card",
+                "place_order_desc": "Make 4 payments of $1.25 every two weeks",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2020/09/23/16008290258c6e56705475b8df7cde96a8218e28ec.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 68,
+                "is_display": 1,
+                "payment_code": "klarna-sliceit",
+                "place_order_desc": "Make 4 payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2022/10/20/16662639114ea37c7c81cad67eadd102c5e86d18c5.png",
+                "decimal_rule": 2,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 156,
+                "is_display": 1,
+                "payment_code": "zip-quadpay",
+                "place_order_desc": "4 interest-free payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2021/08/10/1628582232b83c1a27cbf8df7f40473a5a847014aa.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              }
+            ],
+            "subscribe_status": 0,
+            "grade_status": 1,
+            "is_default": "1"
+          },
+          {
+            "skuSelectedMallCode": "1",
+            "sku_code": "I1gpketkgbho",
+            "stock": "999",
+            "mall_stock": [
+              {
+                "mall_code": "1",
+                "stock": "999"
+              },
+              {
+                "mall_code": "2",
+                "stock": "0"
+              }
+            ],
+            "price": {
+              "retailPrice": {
+                "amount": "8.00",
+                "amountWithSymbol": "$8.00",
+                "usdAmount": "8.00",
+                "usdAmountWithSymbol": "$8.00"
+              },
+              "unit_discount": 38,
+              "salePrice": {
+                "amount": "5.00",
+                "amountWithSymbol": "$5.00",
+                "usdAmount": "5.00",
+                "usdAmountWithSymbol": "$5.00"
+              }
+            },
+            "mall_price": [
+              {
+                "mall_code": "1",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              },
+              {
+                "mall_code": "2",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              }
+            ],
+            "sku_sale_attr": [
+              {
+                "attr_id": "87",
+                "attr_name": "Size",
+                "attr_name_en": "Size",
+                "attr_value_id": "417",
+                "attr_value_name": "M",
+                "attr_value_name_en": "M"
+              }
+            ],
+            "rewardPoints": 5,
+            "doublePoints": 0,
+            "multiPaymentShowList": [
+              {
+                "id": 24,
+                "is_display": 1,
+                "payment_code": "afterpay-card",
+                "place_order_desc": "Make 4 payments of $1.25 every two weeks",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2020/09/23/16008290258c6e56705475b8df7cde96a8218e28ec.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 68,
+                "is_display": 1,
+                "payment_code": "klarna-sliceit",
+                "place_order_desc": "Make 4 payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2022/10/20/16662639114ea37c7c81cad67eadd102c5e86d18c5.png",
+                "decimal_rule": 2,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 156,
+                "is_display": 1,
+                "payment_code": "zip-quadpay",
+                "place_order_desc": "4 interest-free payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2021/08/10/1628582232b83c1a27cbf8df7f40473a5a847014aa.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              }
+            ],
+            "subscribe_status": 0,
+            "grade_status": 1,
+            "is_default": "1"
+          },
+          {
+            "skuSelectedMallCode": "1",
+            "sku_code": "I1gpketkf46i",
+            "stock": "999",
+            "mall_stock": [
+              {
+                "mall_code": "1",
+                "stock": "999"
+              },
+              {
+                "mall_code": "2",
+                "stock": "1"
+              }
+            ],
+            "price": {
+              "retailPrice": {
+                "amount": "8.00",
+                "amountWithSymbol": "$8.00",
+                "usdAmount": "8.00",
+                "usdAmountWithSymbol": "$8.00"
+              },
+              "unit_discount": 38,
+              "salePrice": {
+                "amount": "5.00",
+                "amountWithSymbol": "$5.00",
+                "usdAmount": "5.00",
+                "usdAmountWithSymbol": "$5.00"
+              }
+            },
+            "mall_price": [
+              {
+                "mall_code": "1",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              },
+              {
+                "mall_code": "2",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              }
+            ],
+            "sku_sale_attr": [
+              {
+                "attr_id": "87",
+                "attr_name": "Size",
+                "attr_name_en": "Size",
+                "attr_value_id": "387",
+                "attr_value_name": "L",
+                "attr_value_name_en": "L"
+              }
+            ],
+            "rewardPoints": 5,
+            "doublePoints": 0,
+            "multiPaymentShowList": [
+              {
+                "id": 24,
+                "is_display": 1,
+                "payment_code": "afterpay-card",
+                "place_order_desc": "Make 4 payments of $1.25 every two weeks",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2020/09/23/16008290258c6e56705475b8df7cde96a8218e28ec.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 68,
+                "is_display": 1,
+                "payment_code": "klarna-sliceit",
+                "place_order_desc": "Make 4 payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2022/10/20/16662639114ea37c7c81cad67eadd102c5e86d18c5.png",
+                "decimal_rule": 2,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 156,
+                "is_display": 1,
+                "payment_code": "zip-quadpay",
+                "place_order_desc": "4 interest-free payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2021/08/10/1628582232b83c1a27cbf8df7f40473a5a847014aa.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              }
+            ],
+            "subscribe_status": 0,
+            "grade_status": 1,
+            "is_default": "1"
+          },
+          {
+            "skuSelectedMallCode": "1",
+            "sku_code": "I1gpketkdvys",
+            "stock": "999",
+            "mall_stock": [
+              {
+                "mall_code": "1",
+                "stock": "999"
+              },
+              {
+                "mall_code": "2",
+                "stock": "0"
+              }
+            ],
+            "price": {
+              "retailPrice": {
+                "amount": "8.00",
+                "amountWithSymbol": "$8.00",
+                "usdAmount": "8.00",
+                "usdAmountWithSymbol": "$8.00"
+              },
+              "unit_discount": 38,
+              "salePrice": {
+                "amount": "5.00",
+                "amountWithSymbol": "$5.00",
+                "usdAmount": "5.00",
+                "usdAmountWithSymbol": "$5.00"
+              }
+            },
+            "mall_price": [
+              {
+                "mall_code": "1",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              },
+              {
+                "mall_code": "2",
+                "retailPrice": {
+                  "amount": "8.00",
+                  "amountWithSymbol": "$8.00",
+                  "usdAmount": "8.00",
+                  "usdAmountWithSymbol": "$8.00"
+                },
+                "unit_discount": 38,
+                "salePrice": {
+                  "amount": "5.00",
+                  "amountWithSymbol": "$5.00",
+                  "usdAmount": "5.00",
+                  "usdAmountWithSymbol": "$5.00"
+                },
+                "rewardPoints": 5
+              }
+            ],
+            "sku_sale_attr": [
+              {
+                "attr_id": "87",
+                "attr_name": "Size",
+                "attr_name_en": "Size",
+                "attr_value_id": "754",
+                "attr_value_name": "XL",
+                "attr_value_name_en": "XL"
+              }
+            ],
+            "rewardPoints": 5,
+            "doublePoints": 0,
+            "multiPaymentShowList": [
+              {
+                "id": 24,
+                "is_display": 1,
+                "payment_code": "afterpay-card",
+                "place_order_desc": "Make 4 payments of $1.25 every two weeks",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2020/09/23/16008290258c6e56705475b8df7cde96a8218e28ec.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 68,
+                "is_display": 1,
+                "payment_code": "klarna-sliceit",
+                "place_order_desc": "Make 4 payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2022/10/20/16662639114ea37c7c81cad67eadd102c5e86d18c5.png",
+                "decimal_rule": 2,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              },
+              {
+                "id": 156,
+                "is_display": 1,
+                "payment_code": "zip-quadpay",
+                "place_order_desc": "4 interest-free payments of $1.25",
+                "logo_url": "http://img.ltwebstatic.com/images3_pi/2021/08/10/1628582232b83c1a27cbf8df7f40473a5a847014aa.png",
+                "decimal_rule": 1,
+                "stage": 4,
+                "show_desc_batch": [
+                  {
+                    "amount": "5.0",
+                    "desc": null
+                  }
+                ],
+                "logo_width": "189",
+                "logo_height": "42"
+              }
+            ],
+            "subscribe_status": 0,
+            "grade_status": 1,
+            "is_default": "1"
+          }
+        ],
+        "skc_sale_attr": [
+          {
+            "attr_id": "87",
+            "attr_name": "Size",
+            "isSize": "1",
+            "attr_value_list": [
+              {
+                "attr_value_id": "755",
+                "attr_value_name": "XS",
+                "attr_value_name_en": "XS",
+                "attr_std_value": "",
+                "attrDescPopUp": [
+                  {
+                    "bindAttrData": [
+                      {
+                        "attrNameKey": "Length",
+                        "attrNameValue": "32.5 inch"
+                      },
+                      {
+                        "attrNameKey": "Bust",
+                        "attrNameValue": "28 inch"
+                      },
+                      {
+                        "attrNameKey": "Waist Size",
+                        "attrNameValue": "21.7 inch"
+                      },
+                      {
+                        "attrNameKey": "Hip Size",
+                        "attrNameValue": "28.1 inch"
+                      }
+                    ]
+                  }
+                ],
+                "attr_local_size_value": "2",
+                "country_code": "US"
+              },
+              {
+                "attr_value_id": "568",
+                "attr_value_name": "S",
+                "attr_value_name_en": "S",
+                "attr_std_value": "",
+                "attrDescPopUp": [
+                  {
+                    "bindAttrData": [
+                      {
+                        "attrNameKey": "Length",
+                        "attrNameValue": "33.3 inch"
+                      },
+                      {
+                        "attrNameKey": "Bust",
+                        "attrNameValue": "29.5 inch"
+                      },
+                      {
+                        "attrNameKey": "Waist Size",
+                        "attrNameValue": "23.2 inch"
+                      },
+                      {
+                        "attrNameKey": "Hip Size",
+                        "attrNameValue": "29.7 inch"
+                      }
+                    ]
+                  }
+                ],
+                "attr_local_size_value": "4",
+                "country_code": "US"
+              },
+              {
+                "attr_value_id": "417",
+                "attr_value_name": "M",
+                "attr_value_name_en": "M",
+                "attr_std_value": "",
+                "attrDescPopUp": [
+                  {
+                    "bindAttrData": [
+                      {
+                        "attrNameKey": "Length",
+                        "attrNameValue": "34.1 inch"
+                      },
+                      {
+                        "attrNameKey": "Bust",
+                        "attrNameValue": "31.1 inch"
+                      },
+                      {
+                        "attrNameKey": "Waist Size",
+                        "attrNameValue": "24.8 inch"
+                      },
+                      {
+                        "attrNameKey": "Hip Size",
+                        "attrNameValue": "31.3 inch"
+                      }
+                    ]
+                  }
+                ],
+                "attr_local_size_value": "6",
+                "country_code": "US"
+              },
+              {
+                "attr_value_id": "387",
+                "attr_value_name": "L",
+                "attr_value_name_en": "L",
+                "attr_std_value": "",
+                "attrDescPopUp": [
+                  {
+                    "bindAttrData": [
+                      {
+                        "attrNameKey": "Length",
+                        "attrNameValue": "34.8 inch"
+                      },
+                      {
+                        "attrNameKey": "Bust",
+                        "attrNameValue": "33.5 inch"
+                      },
+                      {
+                        "attrNameKey": "Waist Size",
+                        "attrNameValue": "27.2 inch"
+                      },
+                      {
+                        "attrNameKey": "Hip Size",
+                        "attrNameValue": "33.7 inch"
+                      }
+                    ]
+                  }
+                ],
+                "attr_local_size_value": "8/10",
+                "country_code": "US"
+              },
+              {
+                "attr_value_id": "754",
+                "attr_value_name": "XL",
+                "attr_value_name_en": "XL",
+                "attr_std_value": "",
+                "attrDescPopUp": [
+                  {
+                    "bindAttrData": [
+                      {
+                        "attrNameKey": "Length",
+                        "attrNameValue": "35.6 inch"
+                      },
+                      {
+                        "attrNameKey": "Bust",
+                        "attrNameValue": "35.8 inch"
+                      },
+                      {
+                        "attrNameKey": "Waist Size",
+                        "attrNameValue": "29.5 inch"
+                      },
+                      {
+                        "attrNameKey": "Hip Size",
+                        "attrNameValue": "36 inch"
+                      }
+                    ]
+                  }
+                ],
+                "attr_local_size_value": "12",
+                "country_code": "US"
+              }
+            ],
+            "isAttrHasRelatedDescInfo": "1"
+          }
+        ]
+      },
+      "nowater_gallery": {
+        "detail_image": [
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459094352ba0be96383d2718f3c49efab0ed14_thumbnail_750x999.webp"
+          },
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/16654590982fbb5694bf99718fc7307c1eb9fbe5d2_thumbnail_750x999.webp"
+          },
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/16654591012ce0500c3faf250cd1f5beffcccd3f07_thumbnail_750x999.webp"
+          },
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459105ca5a0599745307a0a82cc02838091cd2_thumbnail_750x999.webp"
+          },
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/166545910800e2e5ae922df318b9357fef8bf5c4d7_thumbnail_750x999.webp"
+          },
+          {
+            "origin_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/166545911255e451cc5349cfead46f67e6a9063bf1_thumbnail_750x999.webp"
+          }
+        ]
+      },
+      "models_info": {
+        "attr": {
+          "Height": "66.9",
+          "Bust": "33.5",
+          "Waist": "25.6",
+          "Hip": "40.9",
+          "BallGirth": "",
+          "FootLength": ""
+        },
+        "size": "S",
+        "name": "Amanda Z",
+        "image": "http://img.ltwebstatic.com/images3_pi/2022/09/21/1663743204ffe66184ee920a36e39df406dff7eb41_thumbnail_200x200.jpg",
+        "attrcm": {
+          "Height": "170.0",
+          "Bust": "85.0",
+          "Waist": "65.0",
+          "Hip": "104.0",
+          "BallGirth": "",
+          "FootLength": ""
+        },
+        "attrinch": {
+          "Height": "66.9",
+          "Bust": "33.5",
+          "Waist": "25.6",
+          "Hip": "40.9",
+          "BallGirth": "",
+          "FootLength": ""
+        },
+        "sizeUnit": 1,
+        "country_code": "US",
+        "attr_local_size_value": "4"
+      },
+      "attrSizeDict": {
+        "XS": [
+          {
+            "Length ": " 32.5 inch"
+          },
+          {
+            "Bust ": " 28 inch"
+          },
+          {
+            "Waist Size ": " 21.7 inch"
+          },
+          {
+            "Hip Size ": " 28.1 inch"
+          }
+        ],
+        "S": [
+          {
+            "Length ": " 33.3 inch"
+          },
+          {
+            "Bust ": " 29.5 inch"
+          },
+          {
+            "Waist Size ": " 23.2 inch"
+          },
+          {
+            "Hip Size ": " 29.7 inch"
+          }
+        ],
+        "M": [
+          {
+            "Length ": " 34.1 inch"
+          },
+          {
+            "Bust ": " 31.1 inch"
+          },
+          {
+            "Waist Size ": " 24.8 inch"
+          },
+          {
+            "Hip Size ": " 31.3 inch"
+          }
+        ],
+        "L": [
+          {
+            "Length ": " 34.8 inch"
+          },
+          {
+            "Bust ": " 33.5 inch"
+          },
+          {
+            "Waist Size ": " 27.2 inch"
+          },
+          {
+            "Hip Size ": " 33.7 inch"
+          }
+        ],
+        "XL": [
+          {
+            "Length ": " 35.6 inch"
+          },
+          {
+            "Bust ": " 35.8 inch"
+          },
+          {
+            "Waist Size ": " 29.5 inch"
+          },
+          {
+            "Hip Size ": " 36 inch"
+          }
+        ]
+      },
+      "is_support_third_size_guide": "1",
+      "lookbook": [],
+      "related_color_goods": [
+        {
+          "goods_id": "2506647",
+          "goods_sn": "swdress07210415662",
+          "goods_color_name": "Black",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459094352ba0be96383d2718f3c49efab0ed14_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/10/11/1665459117e4fc92f009ea02bf4bbd93326d4ee397.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 10,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "112",
+          "attr_value": "Black",
+          "attr_value_id_for_sort": 112,
+          "hot_color": "1",
+          "isEco": "0"
+        },
+        {
+          "goods_id": "2260940",
+          "goods_sn": "swdress07210303426",
+          "goods_color_name": "Pink",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/08/03/16595098926a4b3daa981617cb522edbbbc0f5bb87_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/08/03/1659509905b99d48093dcf3cbce0cdb6785d0fa9c4.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 5,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "513",
+          "attr_value": "Pink",
+          "attr_value_id_for_sort": 513,
+          "hot_color": "1",
+          "isEco": "0"
+        },
+        {
+          "goods_id": "7069912",
+          "goods_sn": "sS2103030106165252",
+          "goods_color_name": "Red",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2021/11/30/1638237318d5b04f1cd0e39a3a0a3ee7767931358b_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2021/11/30/1638237343a16f7dd7f05887692fd26d2e28ca247d.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 4,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "544",
+          "attr_value": "Red",
+          "attr_value_id_for_sort": 544,
+          "hot_color": "0",
+          "isEco": "0"
+        },
+        {
+          "goods_id": "2838527",
+          "goods_sn": "swdress07210604961",
+          "goods_color_name": "Green",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2021/06/16/16238112065900971bca3911c71b0717f67c934338_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2021/06/16/1623811223f7c74634c6a9c3f211476f1870a60e58.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 2,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "334",
+          "attr_value": "Green",
+          "attr_value_id_for_sort": 334,
+          "hot_color": "0",
+          "isEco": "0"
+        },
+        {
+          "goods_id": "2838512",
+          "goods_sn": "swdress07210604678",
+          "goods_color_name": "Camel",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/10/03/1664759217a53ab44f50e0acaff4e56323ba3cc570_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/10/03/1664759233425dd0dea9d7dfa47a849f201e0532d1.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 0,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "152",
+          "attr_value": "Camel",
+          "attr_value_id_for_sort": 152,
+          "hot_color": "0",
+          "isEco": "0"
+        },
+        {
+          "goods_id": "8783412",
+          "goods_sn": "sS2103030106172273",
+          "goods_color_name": "Lilac Purple",
+          "goods_image": "http://img.ltwebstatic.com/images3_pi/2022/01/09/1641714830af57039487a39b636d3b88b0a0da1028_thumbnail_405x552.jpg",
+          "goods_color_image": "http://img.ltwebstatic.com/images3_pi/2022/01/09/16417148409b292655104bb3a226112ee1e90adfa9.jpg",
+          "spu_sort": 0,
+          "attr_sort": 2,
+          "value_sort": 0,
+          "attr_id": "27",
+          "attr_name": "Color",
+          "attr_value_id": "1000117",
+          "attr_value": "Lilac Purple",
+          "attr_value_id_for_sort": 1000117,
+          "hot_color": "0",
+          "isEco": "0"
+        }
+      ],
+      "brand_badge": "SHEIN",
+      "brand_code": "10001",
+      "series_badge": {
+        "name": "SHEIN EZwear",
+        "image_url": "",
+        "corner_img_right": null,
+        "corner_img_left": null
+      },
+      "premiumFlagNew": {
+        "brandId": "1",
+        "brand_badge_name": "SHEIN",
+        "brand_logo_url_left": "https://img.ltwebstatic.com/images3_acp/2022/11/11/1667814002f60c2ae34a097b97b87b9f14163aefd.png",
+        "brand_logo_url_right": null,
+        "brand_code": "10001",
+        "series_badge_name": "SHEIN EZwear",
+        "series_logo_url_left": "http://img.ltwebstatic.com/images3_pi/2022/11/16/166859174215d9bc0064f7cd2454529c83bdfd9b15.png",
+        "series_logo_url_right": "http://img.ltwebstatic.com/images3_pi/2022/11/16/1668591746b445c23e69dba18ad3e92eebc9f89a62.png",
+        "seriesId": "4402"
+      },
+      "video_url": "",
+      "is_beauty": 0,
+      "sizeTemplate": {
+        "image_url": "http://img.ltwebstatic.com/images3_pi/2021/10/18/1634540522a3e2cff9b3893a53a5e0f25b9ac3fb94.jpg",
+        "description_multi": [
+          {
+            "name": "Shoulder",
+            "description": "Measure from where the shoulder seam meets the sleeve on one side to another side.",
+            "sort": 1
+          },
+          {
+            "name": "Bust",
+            "description": "Measure from the stitches below the armpits on one side to another.",
+            "sort": 2
+          },
+          {
+            "name": "Waist",
+            "description": "Measure straight across the narrowest waist line from edge to edge.",
+            "sort": 3
+          },
+          {
+            "name": "Hips",
+            "description": "Measure straight across the widest hip line from edge to edge.",
+            "sort": 4
+          },
+          {
+            "name": "Length",
+            "description": "Measure from where the shoulder seam meets the collar to the hem.",
+            "sort": 5
+          },
+          {
+            "name": "Sleeves",
+            "description": "Measure from where the shoulder seam meets armhole to the cuff.",
+            "sort": 6
+          }
+        ]
+      },
+      "isGirlShoesSize": "0",
+      "basicCodeAttributeDict": {
+        "XS": [
+          {
+            "Bust": "32.3-33.9 inch"
+          },
+          {
+            "Waist Size": "24.4-26 inch"
+          },
+          {
+            "Hip Size": "34.3-35.8 inch"
+          }
+        ],
+        "S": [
+          {
+            "Bust": "33.9-35.4 inch"
+          },
+          {
+            "Waist Size": "26-27.6 inch"
+          },
+          {
+            "Hip Size": "35.8-37.4 inch"
+          }
+        ],
+        "M": [
+          {
+            "Bust": "35.4-37 inch"
+          },
+          {
+            "Waist Size": "27.6-29.1 inch"
+          },
+          {
+            "Hip Size": "37.4-39 inch"
+          }
+        ],
+        "L": [
+          {
+            "Bust": "37-39.4 inch"
+          },
+          {
+            "Waist Size": "29.1-31.5 inch"
+          },
+          {
+            "Hip Size": "39-41.3 inch"
+          }
+        ],
+        "XL": [
+          {
+            "Bust": "39.4-41.7 inch"
+          },
+          {
+            "Waist Size": "31.5-33.9 inch"
+          },
+          {
+            "Hip Size": "41.3-43.7 inch"
+          }
+        ]
+      },
+      "basicCodePrefixText": "Body Size ",
+      "sellingPoint": [
+        {
+          "tag_id": "261",
+          "tag_name_en": "Personality Selling Point",
+          "tag_name": "个性型卖点",
+          "tag_val_id": "60006672",
+          "tag_val_name": "2022黑五角标",
+          "tag_val_desc": "Hot Deals",
+          "tag_val_name_en": "Hot Deals",
+          "tag_val_name_lang": "Hot Deals",
+          "change": "1",
+          "tag_text_color": "#666666",
+          "tag_bg_color": "#FFF6F3",
+          "tag_sort": "1"
+        }
+      ],
+      "featureSubscript": [],
+      "shoesRecRuleId": "0",
+      "business_model": "0",
+      "isDisplayFeedbackTips": "1"
+    }
+  }
